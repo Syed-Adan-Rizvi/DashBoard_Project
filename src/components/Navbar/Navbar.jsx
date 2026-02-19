@@ -47,6 +47,8 @@ export default function Sidebar({ isOpen, closeSidebar }) {
         `}
       >
         {/* LOGO SECTION */}
+        <Link href="/">
+        
         <div className="flex items-center justify-between mb-10 px-2 py-4">
           <div className="flex items-center gap-3">
             <div className="relative h-10 w-10 flex items-center justify-center rounded-xl bg-linear-to-tr from-purple-600 to-pink-500 text-white shadow-lg shadow-purple-500/30">
@@ -67,6 +69,8 @@ export default function Sidebar({ isOpen, closeSidebar }) {
             <XMarkIcon className="w-6 h-6" />
           </button>
         </div>
+
+        </Link>
 
         {/* NAVIGATION LINKS */}
         <nav className="grow">
